@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_card">
+
+    <Button
+        android:id="@+id/btnReset2"
+        android:layout_width="67dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_button"
+        android:onClick="onClickReset"
+        android:text="@string/btn_reset"
+        android:textColor="@color/color_txt"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgLvl"
+        app:layout_constraintStart_toEndOf="@+id/txtLvlName"
+        app:layout_constraintTop_toBottomOf="@+id/imgLvl" />
+
+    <ImageView
+        android:id="@+id/imgLvl"
+        android:layout_width="261dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvPrev"
+        android:layout_width="395dp"
+        android:layout_height="415dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/color_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:textColor="@color/color_txt"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imgLvl"
+        app:layout_constraintTop_toTopOf="@+id/imgLvl" />
+
+    <TextView
+        android:id="@+id/txtLvl"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/color_txt"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imgLvl"
+        app:layout_constraintTop_toBottomOf="@+id/imgLvl" />
+
+    <TextView
+        android:id="@+id/txtLvlName"
+        android:layout_width="193dp"
+        android:layout_height="52dp"
+        android:text=""
+        android:textColor="@color/color_txt"
+        app:layout_constraintStart_toStartOf="@+id/txtLvl"
+        app:layout_constraintTop_toBottomOf="@+id/txtLvl" />
+</android.support.constraint.ConstraintLayout>

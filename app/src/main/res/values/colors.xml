@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_bg">#171820</color>
+    <color name="color_bg_card">#aa3d01</color>
+
+    <color name="color_txt_main">#bcb6ae</color>
+    <color name="color_txt">#ffffff</color>
+
+    <color name="color_btn">#df861d</color>
+    <color name="color_btn_focused">#fdc029</color>
+    <color name="color_btn_pressed">#fdc029</color>
+    <color name="color_btn_disabled">#80df861d</color>
+
+</resources>

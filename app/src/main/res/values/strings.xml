@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cook Fun</string>
+
+    <string name="btn_instruction">Instruction</string>
+    <string name="btn_made">Made it</string>
+    <string name="btn_already_made">Already made</string>
+    <string name="btn_nxt_recipe">Next Recipe</string>
+    <string name="btn_reset">Reset the app</string>
+
+
+    <string name="txt_ingredients">Ingredients:</string>
+    <string name="txt_previous_recipes">Previous recipes:</string>
+    <string name="txt_daily_limit">Daily call limit of 400 reached</string>
+    <string name="txt_failed_to_connect">Failed to connect</string>
+    <string name="txt_reload">Reload</string>
+    <string name="txt_loading">Loading…</string>
+
+
+
+
+
+
+</resources>
