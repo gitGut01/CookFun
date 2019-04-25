@@ -335,7 +335,7 @@ public class MainActivity extends AppCompatActivity implements FragmentA.Fragmen
                 btnMadeIt.setText(getString(R.string.btn_already_made));
                 btnMadeIt.setEnabled(false);
             }
-            tvScore.setText("Points to get: " + String.valueOf((int) recipeMetaData.getSocialRank()));
+            tvScore.setText("Points to get: " + String.valueOf((int) recipeMetaData.getSocialRank()) + " ");
 
 
             recyclerView.setVisibility(View.VISIBLE);
